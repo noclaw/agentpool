@@ -195,6 +195,16 @@ agentpool/
     └── docker.py    — DockerSandbox
 ```
 
+## Documentation
+
+Detailed guides for each component in [`docs/`](docs/):
+
+- [AgentPool Orchestrator](docs/AGENTPOOL.md) — parallel & team modes, configuration, agent lifecycle
+- [Pipeline](docs/PIPELINE.md) — sequential stages, prompt templating, transform functions
+- [Sandboxes](docs/SANDBOXES.md) — local vs Docker, security validation, container lifecycle
+- [TaskBoard](docs/TASKBOARD.md) — shared task coordination, file locking, stale claim recovery
+- [MessageBus](docs/MESSAGEBUS.md) — inter-agent messaging, in-memory vs file-based
+
 ## Setup
 
 ### Install
