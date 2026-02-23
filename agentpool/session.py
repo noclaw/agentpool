@@ -114,6 +114,7 @@ async def run_session(
         "model": model,
         "cwd": str(workspace.resolve()),
         "permission_mode": "bypassPermissions",
+        "setting_sources": ["project"],
     }
 
     if system_prompt:
